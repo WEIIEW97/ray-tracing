@@ -10,6 +10,6 @@ file(GLOB_RECURSE headers ${CMAKE_CURRENT_SOURCE_DIR}/src/*.h)
 
 add_executable(
     ${PROJECT_NAME}
+    ${headers}
     main.cc
-    # ${sources}
 )
